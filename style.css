@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto",serif;
+    margin:0px;
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    font-size: 24px;
+    color:#f9faf8;
+    justify-self: left;
+    font-weight: bold;
+}
+
+nav {
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-style: unset;
+}
+
+nav ul {
+    gap: 40px;
+}
+
+.section.one {
+    display: flex;
+    background-color: #1F2937;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+}
+
+.signup .title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight:900;
+    margin: 0;
+}
+.signup .info {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.signup button{
+    width: 100px;
+    height: 40px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 10px;
+}
+
+/* this is section 2 styling */
+
+.section.two {
+    text-align: center;
+    background-color: #f9faf8;
+    height: 500px;
+}
+
+.section.two h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+}
+
+.section.two .card {
+    border-width: 8px;
+    border-color: #3882f6;
+}
